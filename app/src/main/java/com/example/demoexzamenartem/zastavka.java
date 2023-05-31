@@ -16,5 +16,6 @@ public class zastavka extends AppCompatActivity {
             Intent intent = new Intent(zastavka.this, onboard.class);
             startActivity(intent);
         }, 3000);
+        getSupportActionBar().hide();
     }
 }

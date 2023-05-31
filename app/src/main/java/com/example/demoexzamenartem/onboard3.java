@@ -12,6 +12,7 @@ public class onboard3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_onboard3);
+        getSupportActionBar().hide();
     }
 //    public void onClickLayout(View run) {
 //        Intent intent = new Intent(onboard3.this, onboard3.class);

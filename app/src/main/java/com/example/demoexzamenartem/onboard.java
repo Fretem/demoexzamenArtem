@@ -15,6 +15,7 @@ public class onboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_onboard);
+        getSupportActionBar().hide();
     }
 
     public void run(View run) {
