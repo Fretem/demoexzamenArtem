@@ -19,7 +19,7 @@ public class codeizemail extends AppCompatActivity {
         startActivity(intent);
     }
     public void onClickLayout(View run) {
-        Intent intent = new Intent(codeizemail.this, codeizemail.class);
+        Intent intent = new Intent(codeizemail.this, createpassword.class);
         startActivity(intent);
     }
 

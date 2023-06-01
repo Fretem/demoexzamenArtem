@@ -12,6 +12,9 @@
         android:theme="@style/Theme.DemoexzamenArtem"
         tools:targetApi="31">
         <activity
+            android:name=".createpassword"
+            android:exported="false" />
+        <activity
             android:name=".codeizemail"
             android:exported="false" />
         <activity
