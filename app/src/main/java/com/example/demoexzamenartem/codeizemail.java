@@ -65,7 +65,7 @@ public class codeizemail extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int count, int after) {
                 if (s.length() == 1) {
-                    s1[0] = edit2.getText().toString();
+                    s1[1] = edit2.getText().toString();
                     edit3.requestFocus();
                 }
             }
@@ -93,7 +93,7 @@ public class codeizemail extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int count, int after) {
                 if (s.length() == 1) {
-                    s1[0] = edit3.getText().toString();
+                    s1[2] = edit3.getText().toString();
                     edit4.requestFocus();
                 }
             }
