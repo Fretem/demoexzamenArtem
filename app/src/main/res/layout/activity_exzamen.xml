@@ -16,13 +16,29 @@
 
             android:id="@+id/SearchView"
             android:layout_width="350dp"
-            android:iconifiedByDefault="false"
             android:textColorHint="@color/black"
             android:layout_gravity="center"
-            android:queryBackground="@android:color/transparent"
             android:layout_marginTop="20dp"
             android:background="@drawable/poisk"
             android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Акции и новости"
+            android:textColor="#939396"
+            android:textSize="17sp"
+            />
     </LinearLayout>
 
     <HorizontalScrollView
@@ -44,14 +60,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/banner" />
+                app:srcCompat="@drawable/banner1" />
 
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
-                app:srcCompat="@drawable/banner"/>
+                app:srcCompat="@drawable/banner1"/>
         </LinearLayout>
     </HorizontalScrollView>
     <LinearLayout
